@@ -1,0 +1,9 @@
+  <!--<div id="stlviewer_plugin_tab" style="width:100%; margin:auto; position:relative; font-size: 9pt; color: #777777;">-->
+    <canvas id="viewstl" style="border: 1px solid;" width="588" height="368" ></canvas>
+    <div class="row-fluid">
+      <label for="viewstl_file_list">File</label>
+      <select id="viewstl_file_list" data-bind="options: FileList,optionsText: 'name',optionsValue: 'hash',optionsCaption: 'Choose...',event: { change: loadModel }"></select>      
+      <label for="viewstl_render_mode">Mode</label>
+      <select id="viewstl_render_mode" data-bind="options: RenderModes,optionsText: 'name',optionsValue: 'value',event: { change: setRenderMode }"></select>
+    </div>
+  <!--</div>-->
